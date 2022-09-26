@@ -21,7 +21,8 @@ ul {
 }
 
 .navbar,
-.promotion {
+.promotion,
+.service-cards {
     margin: 0px 300px;
 }
 
@@ -98,12 +99,27 @@ button {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin: 50px 0px;
+}
+
+.service-cards {
+    column-gap: 40px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    flex-direction: column;
+}
+
+.card-img {
+    border-radius: 8px;
+    border: solid 6px #3882f6;
 }
 
 .card p {
     color: #1f2937;
-}
-
-.card-img {
-    width: 200px;
+    text-align: center;
+    padding: 8px;
 }
