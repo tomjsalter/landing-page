@@ -6,6 +6,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .header,
@@ -14,12 +20,35 @@ body {
     display: flex;
 }
 
+.navbar,
+.promotion {
+    margin: 0px 300px;
+}
+
 .header {
     background-color: #1f2937;
     flex-direction: column;
-    color: white;
 }
 
 .navbar {
     justify-content: space-between;
+    align-items: baseline;
+    margin-top: 22px;
+    margin-bottom: 90px;
 }
+
+.navbar h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navlinks {
+    display: flex;
+    column-gap: 24px;
+}
+
+.promo-content h2 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
