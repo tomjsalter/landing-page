@@ -37,9 +37,14 @@ ul {
     margin-bottom: 90px;
 }
 
+.navbar h1,
+.promo-content h2,
+button {
+    color: #f9faf8;
+}
+
 .navbar h1 {
     font-size: 24px;
-    color: #f9faf8;
 }
 
 .navlinks {
@@ -49,6 +54,15 @@ ul {
 
 .promo-content h2 {
     font-size: 48px;
-    color: #f9faf8;
 }
 
+button {
+    background-color: #3882f6;
+    width: 125px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+}
