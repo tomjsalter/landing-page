@@ -52,6 +52,12 @@ button {
     column-gap: 24px;
 }
 
+.promotion {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 90px;
+}
+
 .promo-content h2 {
     font-size: 48px;
 }
@@ -65,4 +71,14 @@ button {
     font-size: 18px;
     font-weight: 600;
     margin-top: 16px;
+}
+
+.promo-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.promo-img {
+    width: 550px;
 }
