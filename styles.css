@@ -22,7 +22,7 @@ ul {
 
 .navbar,
 .promotion,
-.service-cards {
+.quote-content {
     margin: 0px 300px;
 }
 
@@ -109,17 +109,39 @@ button {
 }
 
 .card {
-    width: 200px;
     flex-direction: column;
+    width: 200px;
 }
 
 .card-img {
     border-radius: 8px;
-    border: solid 6px #3882f6;
+    border: solid 5px #3882f6;
 }
 
 .card p {
     color: #1f2937;
     text-align: center;
     padding: 8px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.credit {
+    color: #1f2937;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: right;
+    margin-top: 20px;
 }
