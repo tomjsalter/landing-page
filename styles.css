@@ -63,7 +63,7 @@ button {
     font-size: 48px;
 }
 
-button {
+.promo-content button {
     background-color: #3882f6;
     width: 125px;
     height: 42px;
@@ -144,4 +144,24 @@ button {
     font-size: 22px;
     text-align: right;
     margin-top: 20px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin: 100px 300px;
+    border-radius: 10px;
+}
+
+.cta-container button {
+    border-radius: 8px;
+    border: solid 1px white;
+    background-color: #3882f6;
+    width: 120px;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 500;
 }
