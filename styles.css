@@ -4,4 +4,33 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
 }
