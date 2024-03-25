@@ -90,3 +90,41 @@ ul li {
     width: 120px;
     padding: 8px;
 }
+
+.info-panel {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-panel h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 24px;
+    padding-bottom: 64px;
+    flex-wrap: wrap;
+}
+
+.card-box {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.card-text {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
