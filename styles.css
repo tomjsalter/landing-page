@@ -132,20 +132,26 @@ ul li {
 .quote-box {
     background-color: #e5e7eb;
     padding: 64px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .quote,
 .att-name {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
+    margin-bottom: 16px;
 }
 
 .att-name {
     font-size: 24px;
     font-weight: 700;
+    margin-top: 0px;
+    text-align: right;
 }
