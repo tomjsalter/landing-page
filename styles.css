@@ -13,16 +13,17 @@ header {
     color: #f9faf8;
 }
 
-nav {
+nav,
+.welcome-container {
     max-width: 1060px;
     margin: auto;
+    padding: 16px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 16px;
 }
 
 nav ul {
@@ -42,4 +43,36 @@ nav p {
 
 nav li {
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 60px;
+}
+
+.welcome-cta h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.welcome-cta p {
+    color: #e5e7eb;
+}
+
+.welcome-cta button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.welcome-container img {
+    width: 500px;
 }
