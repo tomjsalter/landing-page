@@ -3,3 +3,43 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto", serif;
+}
+
+header {
+    background-color: #1f293f;
+    color: #f9faf8;
+}
+
+nav {
+    max-width: 1060px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 0px;
+}
+
+nav p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav li {
+    font-size: 18px;
+}
