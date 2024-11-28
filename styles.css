@@ -14,7 +14,8 @@ header {
 }
 
 nav,
-.welcome-container {
+.welcome-container,
+.info-container {
     max-width: 1060px;
     margin: auto;
     padding: 16px;
@@ -51,7 +52,7 @@ nav li {
     justify-content: space-between;
     align-items: flex-start;
     gap: 24px;
-    padding-top: 60px;
+    padding: 60px 0px;
 }
 
 .welcome-cta h1 {
@@ -75,4 +76,39 @@ nav li {
 
 .welcome-container img {
     width: 500px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 120px;
+}
+
+.info-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f293f;
+}
+
+.info-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 150px;
+}
+
+.info-box div {
+    width: 150px;
+    height: 150px;
+    border: solid 4px #3882f6;
+    border-radius: 16px;
 }
