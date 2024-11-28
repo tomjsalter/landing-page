@@ -15,7 +15,9 @@ header {
 
 nav,
 .welcome-container,
-.info-container {
+.info-container,
+.quote,
+.cta-box {
     max-width: 1060px;
     margin: auto;
     padding: 16px;
@@ -96,7 +98,7 @@ nav li {
 .info-boxes {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 48px;
 }
 
 .info-box {
@@ -111,4 +113,61 @@ nav li {
     height: 150px;
     border: solid 4px #3882f6;
     border-radius: 16px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 96px 0px;
+}
+
+.quote h3 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: right;
+    padding-top: 16px;
+}
+
+.cta-container {
+    padding: 72px;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 164px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.left-col h4 {
+    color: white;
+    font-size: 24px;
+}
+
+.left-col p {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.cta-box button {
+    color: white;
+    background-color: #3882f6;
+    border: solid 2px white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 40px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f293f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
 }
